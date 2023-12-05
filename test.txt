@@ -1,0 +1,5 @@
+High_Coverage/
+Medium_Coverage/
+Low_Coverage/
+LAI_Detection.m
+README.md
