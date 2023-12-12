@@ -8,6 +8,7 @@ path = strcat(path, '/bag_parser/bag_files/HC_20231130_143920.bag');
 
 %% Setup reseach
 % Load image and depth
+addpath(genpath("./bag_parser/"));
 [im, depth] = bag_parser(path);
 subplot(2, 3, 1); imshow(im); title('RGB');
 
