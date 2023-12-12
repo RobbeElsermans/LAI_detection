@@ -11,7 +11,7 @@ allImColor = readMessages(curSelColor, 'DataFormat', 'struct');
 imColor = rosReadImage(allImColor{1});
 
 %imshow(imColor)
-
+aa
 % Sensor 0 heeft de diepte ter beschikking
 curSelDepth = select(curBag,'Topic','/device_0/sensor_0/Depth_0/image/data');
 allImDepth = readMessages(curSelDepth, 'DataFormat', 'struct');
