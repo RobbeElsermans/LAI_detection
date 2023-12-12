@@ -1,6 +1,6 @@
 % Get file path
 path = '/home/thomas/Documents/school/semester_3/5_Digital_Image_Processing/lab/LAI_detection';
-path = strcat(path, '/bag_files/LC_20231130_152650.bag');
+path = strcat(path, '/bag_parser/bag_files/HC_20231130_143920.bag');
 % LC_20231130_152650
 % MC_20231130_150501
 % HC_20231130_143920
