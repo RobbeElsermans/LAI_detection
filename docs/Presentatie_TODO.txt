@@ -1,0 +1,65 @@
+LAI (Leaf Area indexing)
+
+Green facades
+
+Determine the leaf Area Indexing with DIP.
+
+Benefits: thermal cooling, capturing dust, noise reduction, biodiversity
+
+
+It is important to measure the LAI.
+LAI = TOTAL LEAF AREA / WALL AREA 
+
+TOTAL LEAF AREA is the total amount of leas opp.
+
+We have images in depth and RGB.
+
+opsticals:
+	- How to see obstacle leaves
+	- Cloudy image (dous it work on sunny days)
+	- Brown leaves are not valid
+	- Does the method detect LAI of higher than 4.
+
+
+Ahmad, Thomas, Robbe
+
+
+
+
+-- materiaal
+
+https://nl.mathworks.com/products/matlab/app-designer.html
+Deze kunnen we gebruiken om de GUI te voorzien
+
+Wat moet er in de gui
+	- Een manier om foto's te importeren in de GUI en hierop bewerkingen doen (.dep).
+	- De gevonden gegevens van de foto's exporteerbaar maken in .csv .
+	- Bepaalde instelparameters van de gebruikte formules, instelbaar maken. (oppervlakte muur, lengte breedte foto, correctie parameters voor estimation over het aantal bladeren, )
+	- De geïmporteerde foto moeten bewerkbaar zijn in de GUI (van sunny naar cloudy, color streching etc.)
+	- Bij het detecteren van slechte (bruine leaves), dit tonen waar ze zitten en de hoeveelheid we schatten dat er zijn. Mogelijk een correctie 
+	- Andere methodes moeten er zijn om te kunnen vergelijken. (De destructive method), lichtintensiteit meten achter het bladeren deck.
+	- Foto dimensies moeten ingegeven kunnen worden.
+	- De dikte van het blad.
+	
+	
+De gegeven images hebben een proper vlak waarop we kunnen meten
+
+Wat kunnen we proberen om LAI te detecteren:
+	- Het vlak is recht. Bepaald de minimum en de maximum afstand. Hiermee kunnen we mss iets doen.
+		- Als de muur volledig bedekt is. kunnen we een offset geven + de minimum.
+	- Integraal berekenen van de oppervlakte van het bedekte muur.
+		- Deze integraal (sommatie) zal de totale oppervlakte geven van blaadjes.
+		- Als we de dikte van het blad kennen, kunnen we met de gevonde opperflakte, de blaadjes bepalen.
+		- Echter is er een correctiefactor nodig om de lege ruimtes te verhelpen.
+	- De bruine bladeren zullen we met RGB waarde eruit moeten filteren.
+	
+	
+	- Zoek een alternatieve kleurruimte om de intensiteitverschillen te minimalizeren tussen een zonnige dag en een bewolkte dag
+	- Alle zichtbare bladeren tellen
+		- De oppervlakte van de foto 
+	- Alles wat 0 is, kan op NaN gezet worden
+	- We kunnen de LAI bepalen door het relatief op de image te bepalen, en dan de gebruiker de nodige lengte en breedte door te geven van de effectieve genomen foto.
+	
+De images zijn op meter gezet.
+
+	
