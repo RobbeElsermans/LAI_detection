@@ -2,11 +2,11 @@ clear
 clc
 close all
 
-InitialDepth = 0.5;
+InitialDepth = 0.2;
 
 
-
-pointcloud = pcread('High_Coverage/HC_20231130_143920.ply');
+% windows
+pointcloud = pcread('..\High_Coverage\HC_20231130_152757.ply');
 %clean up the pointcloud by setting the distance to an overestimation of the approximate distance to the wall
 % such that only actual outliers are removed
 [model,inlierIndices, outlierIndices] = pcfitplane(pointcloud,InitialDepth);
@@ -16,6 +16,7 @@ cleancloud = select(pointcloud, inlierIndices); % Select the indices that are in
 pcshow(cleancloud)
 title("Cleaned dataset, outliners removed")
 
+figure
 
 % https://www.mathworks.com/help/vision/ref/planemodel.normalrotation.html
 
