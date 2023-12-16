@@ -1,6 +1,6 @@
 % Get file path
 path = '/home/thomas/Documents/school/semester_3/5_Digital_Image_Processing/lab/LAI_detection';
-path = strcat(path, '/bag_parser/bag_files/HC_20231130_143920.bag');
+path = strcat(path, '/bag_parser/bag_files/LC_20231130_152650.bag');
 % LC_20231130_152650
 % MC_20231130_150501
 % HC_20231130_143920
@@ -10,6 +10,7 @@ path = strcat(path, '/bag_parser/bag_files/HC_20231130_143920.bag');
 % Load image and depth
 addpath(genpath("./bag_parser/"));
 [im, depth] = bag_parser(path);
+%im = imread("colors.jpg");
 subplot(2, 3, 1); imshow(im); title('RGB');
 
 % I tried to use RGB values (Brown = R:150, G:75, B:0), but due to
