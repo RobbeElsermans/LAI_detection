@@ -64,5 +64,16 @@ classdef Logger
                 fclose(temp_file_id);
             end
         end
+
+        function log = GetCurrentLogging(obj)
+            log = "";
+            temp_file_id = fopen(obj.file, 'r');
+            if temp_file_id == -1
+                writing_completed = false; % we kunnen niet schrijven naar de file
+                disp("No correct file found");
+            else
+                log = fscanf(temp_file_id, "%c");
+            end
+        end
     end
 end
