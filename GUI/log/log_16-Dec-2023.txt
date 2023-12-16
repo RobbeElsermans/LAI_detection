@@ -1,0 +1,654 @@
+
+ ------ New loggings beginning at 10:37:58 ------
+10:38:10	Loading file
+
+ ------ New loggings beginning at 10:56:27 ------
+
+ ------ New loggings beginning at 10:56:27 ------
+
+ ------ New loggings beginning at 10:56:41 ------
+10:56:48	Loading file
+
+ ------ New loggings beginning at 10:59:25 ------
+10:59:32	Loading file
+
+ ------ New loggings beginning at 11:00:21 ------
+11:01:28	Loading file
+
+ ------ New loggings beginning at 11:01:59 ------
+11:02:05	Loading file
+
+ ------ New loggings beginning at 11:03:13 ------
+11:03:16	Loading file
+11:03:16	 ERROR: Something wrong with the given path: bagfile=, plyfile=
+ ---- 
+ bla 
+ ---- 
+11:03:16	Computed .ply data
+
+ ------ New loggings beginning at 11:04:48 ------
+11:04:51	Loading file
+
+ ------ New loggings beginning at 11:06:08 ------
+11:06:11	Loading file
+11:06:11	 ERROR: Something wrong with the given path: bagfile=, plyfile=
+ ---- 
+ Expected filePath to be nonempty. 
+ ---- 
+11:06:11	Computed .ply data
+11:06:53	Loading file
+11:06:55	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145946.bag
+11:06:55	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.ply
+
+ ------ New loggings beginning at 11:08:19 ------
+11:08:37	Loading file
+11:08:38	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:08:38	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:08:38	 ERROR: Something wrong with area m²: area (m²)=0
+ ---- 
+ Undefined function 'str' for input arguments of type 'double'. 
+ ---- 
+11:08:40	Computed .bag data
+11:08:40	Computed .ply data
+
+ ------ New loggings beginning at 11:11:10 ------
+11:11:22	Loading file
+11:11:23	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:11:23	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:11:23	 ERROR: Something wrong with area m²: area (m²)=0
+ ---- 
+ Undefined function 'str' for input arguments of type 'double'. 
+ ---- 
+
+ ------ New loggings beginning at 11:19:55 ------
+
+ ------ New loggings beginning at 11:19:56 ------
+11:20:35	Search For a file of .bag type
+11:20:41	selected path (.bag)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:20:42	Search For a file of .ply type
+11:20:45	selected path (.ply)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:20:46	Loading file
+11:20:47	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:20:47	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:20:47	 ERROR: Something wrong with area m²: area (m²)=0
+ ---- 
+ Too many input arguments. 
+ ---- 
+
+ ------ New loggings beginning at 11:21:47 ------
+11:21:50	Search For a file of .bag type
+11:21:54	selected path (.bag)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:21:55	Search For a file of .ply type
+11:21:58	selected path (.ply)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:21:59	Loading file
+11:22:00	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:22:00	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:22:00	given area per m²: %s0
+11:22:00	Computed .bag data
+11:22:00	Computed .ply data
+11:22:06	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 11:40:24 ------
+
+ ------ New loggings beginning at 11:40:24 ------
+11:40:30	Search For a file of .bag type
+11:40:33	selected path (.bag)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:40:35	Search For a file of .ply type
+11:40:37	selected path (.ply)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:40:40	Loading file
+11:40:40	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:40:40	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:40:40	given area per m²: %s0
+11:40:41	Computed .bag data
+11:40:41	Computed .ply data
+11:40:44	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 11:41:35 ------
+11:41:38	Search For a file of .bag type
+11:41:45	selected path (.bag)C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.bag
+11:41:46	Search For a file of .ply type
+11:41:50	selected path (.ply)C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.ply
+
+ ------ New loggings beginning at 11:42:18 ------
+11:42:22	Loading file
+11:42:22	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.bag
+11:42:22	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.ply
+11:42:22	given area per m²: %s0
+11:42:23	Computed .bag data
+11:42:23	Computed .ply data
+11:42:26	Display images on Import & Examine tab
+11:42:34	Search For a file of .ply type
+11:42:37	selected path (.ply)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:42:39	Loading file
+11:42:40	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\Low_Coverage\LC_20231130_145915.bag
+11:42:40	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:42:40	given area per m²: %s0
+11:42:40	Computed .bag data
+11:42:40	Computed .ply data
+11:42:43	Display images on Import & Examine tab
+11:43:47	Search For a file of .bag type
+11:43:50	selected path (.bag)C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+
+ ------ New loggings beginning at 11:44:44 ------
+11:44:48	Loading file
+11:44:49	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:44:49	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:44:49	given area per m²: %s0
+11:44:49	Computed .bag data
+11:44:49	Computed .ply data
+11:44:52	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 11:45:04 ------
+11:45:07	Loading file
+11:45:07	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:45:07	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:45:07	given area per m²: %s0
+11:45:08	Computed .bag data
+11:45:08	Computed .ply data
+11:45:10	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 11:46:29 ------
+11:46:35	Loading file
+11:46:36	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+11:46:36	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+11:46:36	given area per m²: %s0
+11:46:36	Computed .bag data
+11:46:36	Computed .ply data
+11:46:40	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 12:43:55 ------
+12:44:01	Loading file
+12:44:01	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+12:44:02	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+12:44:02	given area per m²: %s0
+12:44:02	Computed .bag data
+12:44:02	Computed .ply data
+12:44:05	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 12:48:27 ------
+12:48:30	Loading file
+12:48:31	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+12:48:31	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+12:48:31	given area per m²: %s0
+12:48:31	Computed .bag data
+12:48:31	Computed .ply data
+12:48:35	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 12:49:32 ------
+12:49:36	Loading file
+12:49:37	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+12:49:37	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+12:49:37	given area per m²: %s0
+12:49:37	Computed .bag data
+12:49:37	Computed .ply data
+12:49:40	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 12:56:10 ------
+
+ ------ New loggings beginning at 12:56:10 ------
+12:56:16	Loading file
+12:56:16	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+12:56:16	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+12:56:16	given area per m²: %s0
+12:56:17	Computed .bag data
+12:56:17	Computed .ply data
+12:56:20	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 13:01:10 ------
+
+ ------ New loggings beginning at 13:01:11 ------
+13:01:16	Loading file
+13:01:16	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:01:16	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:01:16	given area per m²: %s0
+13:01:16	Computed .bag data
+13:01:16	Computed .ply data
+13:01:20	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 13:02:08 ------
+
+ ------ New loggings beginning at 13:02:09 ------
+13:02:12	Loading file
+13:02:13	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:02:13	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:02:13	given area per m²: %s0
+13:02:13	Computed .bag data
+13:02:13	Computed .ply data
+13:02:16	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 13:21:36 ------
+13:21:46	Loading file
+13:21:47	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:21:47	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:21:47	given area per m²: %s0
+13:21:47	Computed .bag data
+13:21:47	Computed .ply data
+13:21:49	Set the total height of the pointcloud0.2
+13:21:51	Display images on Import & Examine tab
+13:21:57	Auto rotate the depth image to norm: [0 0 0]
+13:21:57	 ERROR: The reference Vector is [0 0 0]
+ ---- 
+ [0 0 0] 
+ ---- 
+13:22:09	Auto rotate the depth image to norm: [0 0 1]
+13:22:09	Depth image norm: [0.157092988491058 0.111717253923416 0.981244623661041]
+13:22:09	Rotation matrix: [0.987544059753418 -0.00885807629674673 -0.157092988491058;-0.00885807629674673 0.993700563907623 -0.111717268824577;0.157092988491058 0.111717268824577 0.981244623661041]
+13:24:20	Auto rotate the depth image to norm: [0 0 1]
+13:24:20	Depth image norm: [0.157092988491058 0.111717253923416 0.981244623661041]
+13:24:20	Rotation matrix: [0.987544059753418 -0.00885807629674673 -0.157092988491058;-0.00885807629674673 0.993700563907623 -0.111717268824577;0.157092988491058 0.111717268824577 0.981244623661041]
+13:24:27	Auto rotate the depth image to norm: [0 1 0]
+13:24:27	Depth image norm: [0.157092988491058 0.111717253923416 0.981244623661041]
+13:24:27	Rotation matrix: [0.97780168056488 -0.157092988491058 -0.138656333088875;0.157092988491058 0.111717246472836 0.981244623661041;-0.138656333088875 -0.981244623661041 0.133915528655052]
+13:24:39	Auto rotate the depth image to norm: [1 1 0]
+13:24:39	Depth image norm: [0.157092988491058 0.111717253923416 0.981244623661041]
+13:24:39	Rotation matrix: [0.594606161117554 -0.436614215373993 0.675138115882874;-0.37244325876236 0.594606161117554 0.712551355361938;-0.712551355361938 -0.675138115882874 0.190942451357841]
+13:24:54	Auto rotate the depth image to norm: [0 0 1]
+13:24:54	Depth image norm: [0.157092988491058 0.111717253923416 0.981244623661041]
+13:24:54	Rotation matrix: [0.987544059753418 -0.00885807629674673 -0.157092988491058;-0.00885807629674673 0.993700563907623 -0.111717268824577;0.157092988491058 0.111717268824577 0.981244623661041]
+
+ ------ New loggings beginning at 13:32:38 ------
+
+ ------ New loggings beginning at 13:32:38 ------
+13:32:42	Loading file
+13:32:43	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:32:43	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:32:43	given area per m²: %s0
+13:32:43	Computed .bag data
+13:32:43	Computed .ply data
+13:32:45	Set the total height of the pointcloud0.2
+13:32:46	Display images on Import & Examine tab
+13:33:00	Auto rotate the depth image to norm: [0 0 1]
+13:33:00	Depth image norm: [-0.150249198079109 0.0323775298893452 -0.988117814064026]
+13:33:00	Rotation matrix: [-0.899892687797546 0.409412056207657 0.150249257683754;0.409412056207657 0.911774754524231 -0.0323775447905064;-0.150249257683754 0.0323775447905064 -0.988117814064026]
+13:33:09	Auto rotate the depth image to norm: [0 0 -1]
+13:33:09	Depth image norm: [-0.150249198079109 0.0323775298893452 -0.988117814064026]
+13:33:09	Rotation matrix: [0.988645076751709 0.00244689243845642 -0.15024921298027;0.00244689243845642 0.999472737312317 0.0323775336146355;0.15024921298027 -0.0323775336146355 0.988117814064026]
+13:33:16	Auto rotate the depth image to norm: [0 0.01 -1]
+13:33:16	Depth image norm: [-0.150249198079109 0.0323775298893452 -0.988117814064026]
+13:33:16	Rotation matrix: [0.988646686077118 0.00320214638486505 -0.150224685668945;0.000197312678210437 0.999744355678558 0.0226087495684624;0.15025869011879 -0.022381704300642 0.988393306732178]
+13:33:20	Auto rotate the depth image to norm: [0 0.02 -1]
+13:33:20	Depth image norm: [-0.150249198079109 0.0323775298893452 -0.988117814064026]
+13:33:20	Rotation matrix: [0.988647699356079 0.00395715981721878 -0.150200113654137;-0.00205160677433014 0.999915480613708 0.0128396078944206;0.150238230824471 -0.0123856980353594 0.988572239875793]
+13:33:23	Auto rotate the depth image to norm: [0 0.03 -1]
+13:33:23	Depth image norm: [-0.150249198079109 0.0323775298893452 -0.988117814064026]
+13:33:23	Rotation matrix: [0.988648116588593 0.00471182679757476 -0.1501754373312;-0.0042990711517632 0.999986052513123 0.00307301711291075;0.150187805294991 -0.00239251647144556 0.988654553890228]
+
+ ------ New loggings beginning at 13:50:19 ------
+
+ ------ New loggings beginning at 13:50:26 ------
+13:50:31	Loading file
+13:50:32	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:50:32	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:50:32	given area per m²: %s0
+13:50:32	Start computing .bag data
+13:50:32	Done cpmputing bag data
+13:50:32	Start computing .ply data
+13:50:32	Done computing pointcloud data
+13:50:32	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 13:50:51 ------
+13:50:55	Loading file
+13:50:55	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:50:55	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:50:55	given area per m²: %s0
+13:50:55	Start computing .bag data
+13:50:55	Done cpmputing bag data
+13:50:55	Start computing .ply data
+13:50:55	Done computing pointcloud data
+13:50:55	Display images on Import & Examine tab
+
+ ------ New loggings beginning at 13:54:20 ------
+13:54:23	Loading file
+13:54:24	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+13:54:24	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+13:54:24	given area per m²: %s0
+13:54:24	Start computing .bag data
+13:54:24	Done cpmputing bag data
+13:54:24	Start computing .ply data
+13:54:24	Done computing pointcloud data
+13:54:24	Display images on Import & Examine tab
+13:54:24	Display image
+13:54:26	Display pointcloud image
+13:54:26	Set the total height of the pointcloud0.2
+13:54:28	Display pointcloud image
+13:56:19	Change the total height value to: 0.21
+13:56:19	Set the total height of the pointcloud: 0.21m
+13:56:20	Display pointcloud image
+13:56:22	Change the total height value to: 0.2
+13:56:22	Set the total height of the pointcloud: 0.2m
+13:56:23	Display pointcloud image
+13:56:26	Change the total height value to: 0.21
+13:56:26	Set the total height of the pointcloud: 0.21m
+13:56:27	Display pointcloud image
+13:56:28	Change the total height value to: 0.22
+13:56:28	Set the total height of the pointcloud: 0.22m
+13:56:29	Display pointcloud image
+13:56:31	Change the total height value to: 0.21
+13:56:31	Set the total height of the pointcloud: 0.21m
+13:56:32	Display pointcloud image
+13:56:33	Change the total height value to: 0.22
+13:56:33	Set the total height of the pointcloud: 0.22m
+13:56:35	Display pointcloud image
+13:56:36	Change the total height value to: 0.23
+13:56:36	Set the total height of the pointcloud: 0.23m
+13:56:37	Display pointcloud image
+13:56:38	Change the total height value to: 0.24
+13:56:38	Set the total height of the pointcloud: 0.24m
+13:56:39	Display pointcloud image
+13:56:47	Auto rotate the depth image to norm: [0 0 1]
+13:56:47	Depth image norm: [0.252707093954086 -0.136905029416084 0.957808017730713]
+13:56:47	Rotation matrix: [0.967381477355957 0.0176712162792683 -0.252707093954086;0.0176712162792683 0.990426540374756 0.136905029416084;0.252707093954086 -0.136905029416084 0.957808017730713]
+13:56:47	Done rotating depth image
+13:56:48	Display pointcloud image
+13:56:56	Change the total height value to: 0.23
+13:56:56	Set the total height of the pointcloud: 0.23m
+13:56:57	Display pointcloud image
+13:57:02	Auto rotate the depth image to norm: [0 0 1]
+13:57:02	Depth image norm: [0.215512588620186 0.308662623167038 0.926434934139252]
+13:57:02	Rotation matrix: [0.975890338420868 -0.0345304645597935 -0.215512588620186;-0.0345304645597935 0.950544595718384 -0.308662623167038;0.215512588620186 0.308662623167038 0.926434934139252]
+13:57:02	Done rotating depth image
+13:57:03	Display pointcloud image
+13:57:11	Change the total height value to: 0.24
+13:57:11	Set the total height of the pointcloud: 0.24m
+13:57:12	Display pointcloud image
+13:57:13	Change the total height value to: 0.25
+13:57:13	Set the total height of the pointcloud: 0.25m
+13:57:14	Display pointcloud image
+13:57:17	Change the total height value to: 0.26
+13:57:17	Set the total height of the pointcloud: 0.26m
+13:57:18	Display pointcloud image
+13:57:19	Change the total height value to: 0.27
+13:57:19	Set the total height of the pointcloud: 0.27m
+13:57:20	Display pointcloud image
+13:57:21	Change the total height value to: 0.28
+13:57:21	Set the total height of the pointcloud: 0.28m
+13:57:23	Display pointcloud image
+13:57:26	Change the total height value to: 0.2
+13:57:26	Set the total height of the pointcloud: 0.2m
+13:57:27	Display pointcloud image
+13:57:29	Auto rotate the depth image to norm: [0 0 1]
+13:57:29	Depth image norm: [0.181061595678329 -0.0400381274521351 0.982656419277191]
+13:57:29	Rotation matrix: [0.983464956283569 0.00365639152005315 -0.181061610579491;0.00365639152005315 0.999191462993622 0.0400381274521351;0.181061610579491 -0.0400381274521351 0.982656419277191]
+13:57:29	Done rotating depth image
+13:57:30	Display pointcloud image
+13:57:37	Auto rotate the depth image to norm: [0 0 1]
+13:57:37	Depth image norm: [0.181061595678329 -0.0400381274521351 0.982656419277191]
+13:57:37	Rotation matrix: [0.983464956283569 0.00365639152005315 -0.181061610579491;0.00365639152005315 0.999191462993622 0.0400381274521351;0.181061610579491 -0.0400381274521351 0.982656419277191]
+13:57:37	Done rotating depth image
+13:57:38	Display pointcloud image
+13:57:42	Reset the rotation of the depth image.
+13:57:42	Set the total height of the pointcloud: 0.2m
+13:57:43	Display pointcloud image
+13:57:47	Change the total height value to: 0.19
+13:57:47	Set the total height of the pointcloud: 0.19m
+13:57:49	Display pointcloud image
+13:57:50	Change the total height value to: 0.2
+13:57:50	Set the total height of the pointcloud: 0.2m
+13:57:51	Display pointcloud image
+13:57:52	Change the total height value to: 0.19
+13:57:52	Set the total height of the pointcloud: 0.19m
+13:57:54	Display pointcloud image
+13:57:55	Change the total height value to: 0.2
+13:57:55	Set the total height of the pointcloud: 0.2m
+13:57:56	Display pointcloud image
+13:58:00	Auto rotate the depth image to norm: [0 0 1]
+13:58:00	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:00	Rotation matrix: [0.992346584796906 0.0171991605311632 -0.122280277311802;0.0171991605311632 0.961349189281464 0.2747942507267;0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:00	Done rotating depth image
+13:58:01	Display pointcloud image
+13:58:07	Auto rotate the depth image to norm: [0 0 1]
+13:58:07	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:07	Rotation matrix: [0.992346584796906 0.0171991605311632 -0.122280277311802;0.0171991605311632 0.961349189281464 0.2747942507267;0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:07	Done rotating depth image
+13:58:08	Display pointcloud image
+13:58:14	Auto rotate the depth image to norm: [0 0.01 1]
+13:58:14	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:14	Rotation matrix: [0.992335617542267 0.0165970381349325 -0.122452348470688;0.019042519852519 0.958563923835754 0.284240335226059;0.122095957398415 -0.284393578767776 0.950901091098785]
+13:58:14	Done rotating depth image
+13:58:16	Display pointcloud image
+13:58:17	Auto rotate the depth image to norm: [0 0.02 1]
+13:58:17	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:17	Rotation matrix: [0.992324233055115 0.0159941650927067 -0.122624613344669;0.0208843983709812 0.955682992935181 0.293655931949615;0.121887035667896 -0.293962836265564 0.948013365268707]
+13:58:17	Done rotating depth image
+13:58:18	Display pointcloud image
+13:58:20	Auto rotate the depth image to norm: [0 0.01 1]
+13:58:20	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:20	Rotation matrix: [0.992335617542267 0.0165970381349325 -0.122452348470688;0.019042519852519 0.958563923835754 0.284240335226059;0.122095957398415 -0.284393578767776 0.950901091098785]
+13:58:20	Done rotating depth image
+13:58:22	Display pointcloud image
+13:58:22	Auto rotate the depth image to norm: [0 0 1]
+13:58:22	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:22	Rotation matrix: [0.992346584796906 0.0171991605311632 -0.122280277311802;0.0171991605311632 0.961349189281464 0.2747942507267;0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:22	Done rotating depth image
+13:58:24	Display pointcloud image
+13:58:24	Auto rotate the depth image to norm: [0 -0.01 1]
+13:58:24	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:24	Rotation matrix: [0.992357134819031 0.0178004074841738 -0.12210838496685;0.0153549248352647 0.964038014411926 0.26532045006752;0.122439935803413 -0.265167623758316 0.956396698951721]
+13:58:24	Done rotating depth image
+13:58:25	Display pointcloud image
+13:58:25	Auto rotate the depth image to norm: [0 -0.02 1]
+13:58:25	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:25	Rotation matrix: [0.992367267608643 0.0184007417410612 -0.121936708688736;0.0135105084627867 0.966629505157471 0.255821794271469;0.12257494032383 -0.255516618490219 0.959002912044525]
+13:58:25	Done rotating depth image
+13:58:27	Display pointcloud image
+13:58:27	Auto rotate the depth image to norm: [0 -0.03 1]
+13:58:27	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:27	Rotation matrix: [0.992377042770386 0.0190000254660845 -0.121765300631523;0.0116665065288544 0.969123125076294 0.246301174163818;0.122685298323631 -0.245844215154648 0.961513876914978]
+13:58:27	Done rotating depth image
+13:58:28	Display pointcloud image
+13:58:28	Auto rotate the depth image to norm: [0 -0.04 1]
+13:58:28	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:28	Rotation matrix: [0.992386400699615 0.0195981971919537 -0.121594130992889;0.00982359237968922 0.971518158912659 0.236761391162872;0.122771009802818 -0.236153274774551 0.963928878307343]
+13:58:28	Done rotating depth image
+13:58:30	Display pointcloud image
+13:58:30	Auto rotate the depth image to norm: [0 -0.05 1]
+13:58:30	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:30	Rotation matrix: [0.992395341396332 0.0201951526105404 -0.121423281729221;0.00798238161951303 0.973814129829407 0.227205395698547;0.122832156717777 -0.226446837186813 0.96624743938446]
+13:58:30	Done rotating depth image
+13:58:32	Display pointcloud image
+13:58:32	Auto rotate the depth image to norm: [0 -0.06 1]
+13:58:32	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:32	Rotation matrix: [0.992403924465179 0.0207908563315868 -0.121252737939358;0.00614356296136975 0.976010620594025 0.217636063694954;0.122868798673153 -0.216727808117867 0.968469023704529]
+13:58:32	Done rotating depth image
+13:58:34	Display pointcloud image
+13:58:35	Auto rotate the depth image to norm: [0 -0.07 1]
+13:58:35	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:35	Rotation matrix: [0.992412090301514 0.0213851444423199 -0.121082536876202;0.00430769473314285 0.978107392787933 0.208056300878525;0.122881032526493 -0.206999182701111 0.970593452453613]
+13:58:35	Done rotating depth image
+13:58:37	Display pointcloud image
+13:58:37	Auto rotate the depth image to norm: [0 -0.08 1]
+13:58:37	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:37	Rotation matrix: [0.992419838905334 0.0219779852777719 -0.120912708342075;0.00247544981539249 0.980104088783264 0.19846898317337;0.122868977487087 -0.197263866662979 0.9726203083992]
+13:58:37	Done rotating depth image
+13:58:38	Display pointcloud image
+13:58:38	Auto rotate the depth image to norm: [0 -0.09 1]
+13:58:38	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:38	Rotation matrix: [0.992427170276642 0.0225693043321371 -0.120743274688721;0.000647459179162979 0.982000529766083 0.188877016305923;0.122832790017128 -0.187524855136871 0.974549412727356]
+13:58:38	Done rotating depth image
+13:58:40	Display pointcloud image
+13:58:40	Auto rotate the depth image to norm: [0 -0.1 1]
+13:58:40	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:40	Rotation matrix: [0.992434144020081 0.0231589898467064 -0.12057426571846;-0.00117569696158171 0.983796775341034 0.179283335804939;0.122772589325905 -0.177785143256187 0.97638076543808]
+13:58:40	Done rotating depth image
+13:58:41	Display pointcloud image
+13:58:41	Auto rotate the depth image to norm: [0 -0.11 1]
+13:58:41	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:41	Rotation matrix: [0.992440700531006 0.0237469896674156 -0.120405688881874;-0.00299337785691023 0.985492825508118 0.1696907132864;0.122688591480255 -0.168047562241554 0.978114247322083]
+13:58:41	Done rotating depth image
+13:58:42	Display pointcloud image
+13:58:42	Auto rotate the depth image to norm: [0 -0.12 1]
+13:58:42	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:42	Rotation matrix: [0.992446899414062 0.024333193898201 -0.120237559080124;-0.00480502471327782 0.987088739871979 0.160102054476738;0.122580945491791 -0.158315047621727 0.979750096797943]
+13:58:42	Done rotating depth image
+13:58:44	Display pointcloud image
+13:58:57	Auto rotate the depth image to norm: [0 -0.13 1]
+13:58:57	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:57	Rotation matrix: [0.992452681064606 0.0249175317585468 -0.120069935917854;-0.00661004800349474 0.988584816455841 0.150520205497742;0.122449904680252 -0.148590505123138 0.981288373470306]
+13:58:57	Done rotating depth image
+13:58:58	Display pointcloud image
+13:58:59	Auto rotate the depth image to norm: [0 -0.14 1]
+13:58:59	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:58:59	Rotation matrix: [0.99245810508728 0.0254999659955502 -0.119902804493904;-0.008407823741436 0.989981293678284 0.140947908163071;0.122295707464218 -0.138876765966415 0.982729315757751]
+13:58:59	Done rotating depth image
+13:59:00	Display pointcloud image
+13:59:01	Auto rotate the depth image to norm: [0 -0.15 1]
+13:59:01	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:01	Rotation matrix: [0.992463111877441 0.026080371811986 -0.119736216962337;-0.0101978536695242 0.991278529167175 0.131387993693352;0.122118599712849 -0.129176691174507 0.984073340892792]
+13:59:01	Done rotating depth image
+13:59:03	Display pointcloud image
+13:59:04	Auto rotate the depth image to norm: [0 -0.16 1]
+13:59:04	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:04	Rotation matrix: [0.992467761039734 0.0266586784273386 -0.119570188224316;-0.0119795668870211 0.992477059364319 0.121843218803406;0.121918849647045 -0.119493067264557 0.985320866107941]
+13:59:04	Done rotating depth image
+13:59:05	Display pointcloud image
+13:59:06	Auto rotate the depth image to norm: [0 -0.17 1]
+13:59:06	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:06	Rotation matrix: [0.992472052574158 0.0272348672151566 -0.119404718279839;-0.0137523775920272 0.993577361106873 0.112316206097603;0.12169674038887 -0.109828591346741 0.986472249031067]
+13:59:06	Done rotating depth image
+13:59:07	Display pointcloud image
+13:59:15	Auto rotate the depth image to norm: [0 -0.17 1]
+13:59:15	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:15	Rotation matrix: [0.992472052574158 0.0272348672151566 -0.119404718279839;-0.0137523775920272 0.993577361106873 0.112316206097603;0.12169674038887 -0.109828591346741 0.986472249031067]
+13:59:15	Done rotating depth image
+13:59:16	Display pointcloud image
+13:59:17	Auto rotate the depth image to norm: [-0.01 -0.17 1]
+13:59:17	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:17	Rotation matrix: [0.991222023963928 0.0304724611341953 -0.12864825129509;-0.0159306786954403 0.9935142993927 0.112585872411728;0.131244659423828 -0.109548136591911 0.98527866601944]
+13:59:17	Done rotating depth image
+13:59:19	Display pointcloud image
+13:59:20	Auto rotate the depth image to norm: [-0.02 -0.17 1]
+13:59:20	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:20	Rotation matrix: [0.989875614643097 0.0337066911160946 -0.137877449393272;-0.0181067883968353 0.993444740772247 0.112870439887047;0.140778109431267 -0.109231188893318 0.983996987342834]
+13:59:20	Done rotating depth image
+13:59:21	Display pointcloud image
+13:59:22	Auto rotate the depth image to norm: [-0.03 -0.17 1]
+13:59:22	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:22	Rotation matrix: [0.988433241844177 0.0369365848600864 -0.147089570760727;-0.0202800929546356 0.993368625640869 0.113169863820076;0.150294274091721 -0.108877867460251 0.982627689838409]
+13:59:22	Done rotating depth image
+13:59:23	Display pointcloud image
+13:59:24	Auto rotate the depth image to norm: [-0.04 -0.17 1]
+13:59:24	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:24	Rotation matrix: [0.986895620822906 0.0401610657572746 -0.156281962990761;-0.0224501118063927 0.9932861328125 0.113483980298042;0.159790351986885 -0.108488291501999 0.981171369552612]
+13:59:24	Done rotating depth image
+13:59:25	Display pointcloud image
+13:59:34	Auto rotate the depth image to norm: [-0.05 -0.17 1]
+13:59:34	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:34	Rotation matrix: [0.985263347625732 0.0433791652321815 -0.16545207798481;-0.0246162936091423 0.993197202682495 0.11381272226572;0.169263646006584 -0.108062691986561 0.979628682136536]
+13:59:34	Done rotating depth image
+13:59:35	Display pointcloud image
+13:59:36	Auto rotate the depth image to norm: [-0.04 -0.17 1]
+13:59:36	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:36	Rotation matrix: [0.986895620822906 0.0401610657572746 -0.156281962990761;-0.0224501118063927 0.9932861328125 0.113483980298042;0.159790351986885 -0.108488291501999 0.981171369552612]
+13:59:36	Done rotating depth image
+13:59:37	Display pointcloud image
+13:59:38	Auto rotate the depth image to norm: [-0.05 -0.17 1]
+13:59:38	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+13:59:38	Rotation matrix: [0.985263347625732 0.0433791652321815 -0.16545207798481;-0.0246162936091423 0.993197202682495 0.11381272226572;0.169263646006584 -0.108062691986561 0.979628682136536]
+13:59:38	Done rotating depth image
+13:59:39	Display pointcloud image
+14:00:02	Auto rotate the depth image to norm: [0 0 1]
+14:00:02	Depth image norm: [0.122280277311802 -0.2747942507267 0.953695774078369]
+14:00:02	Rotation matrix: [0.992346584796906 0.0171991605311632 -0.122280277311802;0.0171991605311632 0.961349189281464 0.2747942507267;0.122280277311802 -0.2747942507267 0.953695774078369]
+14:00:02	Done rotating depth image
+14:00:03	Display pointcloud image
+14:00:07	Change the total height value to: 0.19
+14:00:07	Set the total height of the pointcloud: 0.19m
+14:00:09	Display pointcloud image
+14:00:11	Auto rotate the depth image to norm: [0 0 1]
+14:00:11	Depth image norm: [-0.0957661122083664 0.225293055176735 -0.969573080539703]
+14:00:11	Rotation matrix: [0.698584735393524 0.709089696407318 0.0957660749554634;0.709089696407318 -0.668157815933228 -0.225292965769768;-0.0957660749554634 0.225292965769768 -0.969573080539703]
+14:00:11	Done rotating depth image
+14:00:12	Display pointcloud image
+14:00:15	Reset the rotation of the depth image.
+14:00:15	Set the total height of the pointcloud: 0.19m
+14:00:16	Display pointcloud image
+14:00:19	Auto rotate the depth image to norm: [0 0 0]
+14:00:19	 ERROR: The reference Vector is [0 0 0]
+ ---- 
+ [0 0 0] 
+ ---- 
+14:00:26	Auto rotate the depth image to norm: [0 0 1]
+14:00:26	Depth image norm: [0.172997042536736 0.374943882226944 0.910762906074524]
+14:00:26	Rotation matrix: [0.984337151050568 -0.0339467525482178 -0.172997057437897;-0.0339467525482178 0.926425755023956 -0.374943912029266;0.172997057437897 0.374943912029266 0.910762906074524]
+14:00:26	Done rotating depth image
+14:00:27	Display pointcloud image
+14:00:31	Change the total height value to: 0.2
+14:00:31	Set the total height of the pointcloud: 0.2m
+14:00:33	Display pointcloud image
+14:00:35	Auto rotate the depth image to norm: [0 0 1]
+14:00:35	Depth image norm: [0.0704161897301674 -0.154802098870277 0.985432863235474]
+14:00:35	Rotation matrix: [0.997502565383911 0.00549028813838959 -0.070416197180748;0.00549028813838959 0.987930238246918 0.154802098870277;0.070416197180748 -0.154802098870277 0.985432803630829]
+14:00:35	Done rotating depth image
+14:00:36	Display pointcloud image
+14:00:44	Change the total height value to: 0.19
+14:00:44	Set the total height of the pointcloud: 0.19m
+14:00:45	Display pointcloud image
+14:00:46	Change the total height value to: 0.18
+14:00:46	Set the total height of the pointcloud: 0.18m
+14:00:47	Display pointcloud image
+14:00:47	Change the total height value to: 0.17
+14:00:47	Set the total height of the pointcloud: 0.17m
+14:00:48	Display pointcloud image
+14:00:54	Change the total height value to: 0.16
+14:00:54	Set the total height of the pointcloud: 0.16m
+14:00:56	Display pointcloud image
+14:00:57	Auto rotate the depth image to norm: [0 0 1]
+14:00:57	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:00:57	Rotation matrix: [0.964563131332397 -0.00481883808970451 -0.263808071613312;-0.00481883808970451 0.999344706535339 -0.035873606801033;0.263808071613312 0.035873606801033 0.963907837867737]
+14:00:57	Done rotating depth image
+14:00:59	Display pointcloud image
+14:01:10	Auto rotate the depth image to norm: [0 0 1]
+14:01:10	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:10	Rotation matrix: [0.964563131332397 -0.00481883808970451 -0.263808071613312;-0.00481883808970451 0.999344706535339 -0.035873606801033;0.263808071613312 0.035873606801033 0.963907837867737]
+14:01:10	Done rotating depth image
+14:01:11	Display pointcloud image
+14:01:12	Auto rotate the depth image to norm: [0.01 0 1]
+14:01:12	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:12	Rotation matrix: [0.967151939868927 -0.00427747098729014 -0.254162847995758;-0.00499490695074201 0.999345600605011 -0.0358254499733448;0.254149734973907 0.0359181724488735 0.966497659683228]
+14:01:12	Done rotating depth image
+14:01:13	Display pointcloud image
+14:01:14	Auto rotate the depth image to norm: [0.02 0 1]
+14:01:14	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:14	Rotation matrix: [0.969643592834473 -0.00373604916967452 -0.244494125247002;-0.00517070665955544 0.999346435070038 -0.0357773639261723;0.244467988610268 0.0359554998576641 0.968990504741669]
+14:01:14	Done rotating depth image
+14:01:15	Display pointcloud image
+14:01:15	Auto rotate the depth image to norm: [0.03 0 1]
+14:01:15	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:15	Rotation matrix: [0.972037255764008 -0.0031947810202837 -0.234804809093475;-0.00534622929990292 0.99934720993042 -0.0357293598353863;0.23476567864418 0.0359855927526951 0.971385657787323]
+14:01:15	Done rotating depth image
+14:01:16	Display pointcloud image
+14:01:16	Auto rotate the depth image to norm: [0.04 0 1]
+14:01:16	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:16	Rotation matrix: [0.974332571029663 -0.00265383301302791 -0.225097835063934;-0.00552142830565572 0.999347984790802 -0.0356814339756966;0.225045740604401 0.0360084474086761 0.973682582378387]
+14:01:16	Done rotating depth image
+14:01:17	Display pointcloud image
+14:01:18	Auto rotate the depth image to norm: [0.05 0 1]
+14:01:18	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:18	Rotation matrix: [0.976528882980347 -0.00211340794339776 -0.215376198291779;-0.00569629343226552 0.999348700046539 -0.0356336086988449;0.215311229228973 0.0360240936279297 0.975880801677704]
+14:01:18	Done rotating depth image
+14:01:19	Display pointcloud image
+14:01:19	Auto rotate the depth image to norm: [0.06 0 1]
+14:01:19	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:19	Rotation matrix: [0.97862583398819 -0.00157368998043239 -0.205642744898796;-0.00587079487740993 0.999349355697632 -0.0355858728289604;0.205564960837364 0.0360325425863266 0.977979898452759]
+14:01:19	Done rotating depth image
+14:01:21	Display pointcloud image
+14:01:21	Auto rotate the depth image to norm: [0.07 0 1]
+14:01:21	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:21	Rotation matrix: [0.980623185634613 -0.00103486096486449 -0.195900574326515;-0.00604490656405687 0.999350011348724 -0.0355382449924946;0.195810034871101 0.0360338278114796 0.979979574680328]
+14:01:21	Done rotating depth image
+14:01:23	Display pointcloud image
+14:01:23	Auto rotate the depth image to norm: [0.08 0 1]
+14:01:23	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:23	Rotation matrix: [0.982520759105682 -0.00049710157327354 -0.186152502894402;-0.00621859915554523 0.999350666999817 -0.035490732640028;0.186049267649651 0.0360279865562916 0.981879651546478]
+14:01:23	Done rotating depth image
+14:01:24	Display pointcloud image
+14:01:25	Auto rotate the depth image to norm: [0.09 0 1]
+14:01:25	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:25	Rotation matrix: [0.984318315982819 3.9396807551384e-05 -0.176401570439339;-0.00639185821637511 0.999351263046265 -0.0354433320462704;0.176285728812218 0.0360150523483753 0.983679950237274]
+14:01:25	Done rotating depth image
+14:01:26	Display pointcloud image
+14:01:26	Auto rotate the depth image to norm: [0.1 0 1]
+14:01:26	Depth image norm: [0.263808101415634 0.035873606801033 0.963907837867737]
+14:01:26	Rotation matrix: [0.986015796661377 0.000574449542909861 -0.166650623083115;-0.00656466512009501 0.999351799488068 -0.0353960618376732;0.166522264480591 0.0359950810670853 0.985380470752716]
+14:01:26	Done rotating depth image
+14:01:27	Display pointcloud image

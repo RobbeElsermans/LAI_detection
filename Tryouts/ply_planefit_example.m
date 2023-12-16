@@ -4,9 +4,8 @@ close all
 
 InitialDepth = 0.2;
 
-
 % windows
-pointcloud = pcread('..\High_Coverage\HC_20231130_152757.ply');
+pointcloud = pcread('High_Coverage\HC_20231130_143832.ply');
 %clean up the pointcloud by setting the distance to an overestimation of the approximate distance to the wall
 % such that only actual outliers are removed
 [model,inlierIndices, outlierIndices] = pcfitplane(pointcloud,InitialDepth);
@@ -19,14 +18,13 @@ title("Cleaned dataset, outliners removed")
 figure
 
 % https://www.mathworks.com/help/vision/ref/planemodel.normalrotation.html
-
+%% Rotate the plane
 % the ground plane
 referenceVector = [0 0 1];  % x=0, y=0, z=1
 
-%Rotate the plane
 %groundPlane = pcfitplane(cleancloud,maxDistance,referenceVector);
-tform = normalRotation(model,referenceVector);
-
+%tform = normalRotation(model,referenceVector);
+[model,inlierIndices, outlierIndices] = pcfitplane(cleancloud,InitialDepth);
 tform = normalRotation(model,referenceVector);
 leveledPc = pctransform( cleancloud,tform);
 pcshow(leveledPc)
