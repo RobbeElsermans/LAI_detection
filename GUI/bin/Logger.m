@@ -19,7 +19,7 @@ classdef Logger
 
             % https://www.mathworks.com/help/matlab/ref/datetime.html
             % prepareer de file name en naam
-            obj.file_name = strcat('log_', char(datetime("today")), ".txt");
+            obj.file_name = strcat('log_', char(datetime("today")), ".log");
             obj.file = strcat(obj.file_path, obj.file_name);
             
             % open de file en schrijf de header
