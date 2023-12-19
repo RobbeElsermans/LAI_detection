@@ -1,6 +1,7 @@
 clc, clear, close all;
 
-curBag = rosbag('Medium_Coverage\MC_20231130_150501.bag');
+%curBag = rosbag('..\Medium_Coverage\MC_20231130_150501.bag');
+curBag = rosbag('..\Low_Coverage\LC_20231130_145915.bag');
 
 curTopics = curBag.AvailableTopics.Properties.RowNames;
 
@@ -59,3 +60,25 @@ figure;
 imshow(lab1);
 % determine the freen leaves
 recon = imreconstruct(double(imColor),b, 18 );
+%%
+% Probeersel 2 (Ahmad)
+% We are going to threshold transform the image so we can label it:
+T = graythresh(maskedRgbImage);
+im = im2bw(maskedRgbImage, T);
+figure;
+imshow(im)
+[L, n] = bwlabel(im);
+
+% now we are going to calculate the total area covered by leaves as
+% determined by Thomas. This will give us an amount of pixels
+D_area = regionprops(L,'Area');
+matrix_area = [D_area.Area];
+total_area_covered_by_leaves = sum(matrix_area, 'all');
+
+% Now we are going to divide this number by the total amount of pixels:
+pixels = size(maskedRgbImage);
+x_pixels = pixels(1);
+y_pixels = pixels(2);
+total_area_image = x_pixels*y_pixels;
+
+percentage_covered_by_leaves = total_area_covered_by_leaves/total_area_image; % 0.4428
