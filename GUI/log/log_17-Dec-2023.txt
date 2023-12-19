@@ -1,0 +1,48 @@
+
+ ------ New loggings beginning at 12:11:22 ------
+
+ ------ New loggings beginning at 12:11:24 ------
+12:11:32	Loading file
+12:11:35	.bag file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag
+12:11:35	pointcloud file: C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply
+12:11:35	given area per m²: 0m²
+12:11:35	Start computing .bag data
+12:11:36	Done computing bag data
+12:11:36	Start computing .ply data
+12:11:36	Done computing pointcloud data
+12:11:36	Display images on Import & Examine tab
+12:11:36	Display image
+12:11:43	Display pointcloud image
+12:11:43	Set the total height of the pointcloud: 0.2m
+12:11:46	Display pointcloud image
+12:11:46	Display image
+12:11:47	Done converting rgb image to L*a*b*
+12:11:47	Done extracting a* component
+12:11:47	Done tresholding a* component with threshold: 0
+12:11:47	Display image
+12:11:47	Done applying mask on image
+12:11:47	Display image
+12:12:09	Change the total height value to: 0.19
+12:12:09	Set the total height of the pointcloud: 0.19m
+12:12:11	Display pointcloud image
+12:12:12	Change the total height value to: 0.2
+12:12:12	Set the total height of the pointcloud: 0.2m
+12:12:15	Display pointcloud image
+12:12:18	Auto rotate the depth image to norm: [0 0 1]
+12:12:18	Depth image norm: [0.360307782888412 -0.266177743673325 0.894051313400269]
+12:12:18	Rotation matrix: [0.931458175182343 0.0506353415548801 -0.360307782888412;0.0506353415548801 0.962593078613281 0.266177743673325;0.360307782888412 -0.266177743673325 0.894051253795624]
+12:12:18	Done rotating depth image
+12:12:20	Display pointcloud image
+12:12:27	Change the total height value to: 0.19
+12:12:27	Set the total height of the pointcloud: 0.19m
+12:12:29	Display pointcloud image
+12:12:31	Auto rotate the depth image to norm: [0 0 1]
+12:12:31	Depth image norm: [-0.144934564828873 0.186194255948067 -0.971764206886292]
+12:12:31	Rotation matrix: [0.256049513816833 0.955736637115479 0.144934624433517;0.955736637115479 -0.227813839912415 -0.186194315552711;-0.144934624433517 0.186194315552711 -0.971764206886292]
+12:12:31	Done rotating depth image
+12:12:34	Display pointcloud image
+12:12:43	Auto rotate the depth image to norm: [0 0 -1]
+12:12:43	Depth image norm: [-0.144934564828873 0.186194255948067 -0.971764206886292]
+12:12:43	Rotation matrix: [0.989346563816071 0.0136862127110362 -0.144934564828873;0.0136862127110362 0.982417643070221 0.186194255948067;0.144934564828873 -0.186194255948067 0.971764206886292]
+12:12:43	Done rotating depth image
+12:12:46	Display pointcloud image
