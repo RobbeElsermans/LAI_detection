@@ -1,25 +1,16 @@
 clear
 close all
-clc
 
-directory = '..\..\PLY files';  % Replace '..\..\PLY files' with your directory path
-files = dir(fullfile(directory, '*.ply'));
+filepaths = ['..\..\PLY files\HC_20231130_143832.ply', '..\..\PLY files\MC_20231130_150501.ply', '..\..\PLY files\LC_20231130_145915.ply'];
 
-filepaths = cell(numel(files), 1);
-
-% Display and store the names of all PLY files in the directory
-for i = 1:numel(files)
-    filepaths{i} = fullfile(directory, files(i).name);
-    %disp(filepaths{i});
-end
-
-%filepaths = ["..\..\PLY files\HC_20231130_143832.ply", "..\..\PLY files\MC_20231130_150501.ply", "..\..\PLY files\LC_20231130_145915.ply"];
-
+%pointcloud = pcread('..\..\PLY files\HC_20231130_143832.ply');
+%pointcloud = pcread('..\..\PLY files\MC_20231130_150501.ply');
+%pointcloud = pcread('..\..\PLY files\LC_20231130_145915.ply');
 for path=1:length(filepaths)
-    pointcloud = pcread(filepaths{path});
+    pointcloud = pcread(filepaths(i));
     % clean up the pointcloud by setting the distance to an overestimation of the approximate distance to the wall
     % such that only actual outliers are removed
-    [model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,3);
+    [model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,2);
     cleancloud = select(pointcloud, inlierIndices);
     % figure;
     % pcshow(cleancloud);
@@ -104,6 +95,6 @@ for path=1:length(filepaths)
     % Display the result
     %disp(result);
     
-    Leaf_area_index = 2/sum(result,"all");
-    fprintf("file %s has an LAI of %f \n", filepaths{path}, Leaf_area_index)
+    Leaf_area_index = mean((1/result)*6,"all");
+    fprintf("file %d has an LAI of %d")
 end
