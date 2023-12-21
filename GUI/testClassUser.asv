@@ -40,9 +40,5 @@ data.parameter_file = "params\defaultParameters.json";
 data.bag_file = "C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag";
 data.pointcloud_file = "C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply";
 data
-
-extractor = ParameterExtractor("defaultParameter.json", data);
-pause
+extractor = ParameterExtractor("defaultParameters.json", data);
 new_data = extractor.ReadData()
-data.area_of_image = 5000;
-extractor.WriteDataToFile(data, "test.json")

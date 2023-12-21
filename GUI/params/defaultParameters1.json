@@ -1,0 +1,22 @@
+{
+    "area_of_image": 0.0,
+    "total_height_pointcloud": 0.2,
+    "total_layers_pointcloud": 2.0,
+    "layer_thickness_pointcloud": 1.0,
+    "show_layer_pointcloud": 1.0,
+    "auto_rotate_norm": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "manual_plane_rotation_norm": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "green_threshold_a_star_mask": 0.0,
+    "hidden_leaves_factor": 0.0,
+    "parameter_file": ".\\params\\defaultParameters.json",
+    "bag_file": "C:\\Users\\robel\\Documents\\GitHub\\LAI_detection\\High_Coverage\\HC_20231130_143832.bag",
+    "pointcloud_file": "C:\\Users\\robel\\Documents\\GitHub\\LAI_detection\\High_Coverage\\HC_20231130_143832.ply"
+}

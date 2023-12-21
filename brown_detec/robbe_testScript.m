@@ -70,7 +70,13 @@ test = lab2rgb(lab1);
 figure;
 imshow(green_masker)
 [L, n] = bwlabel(green_masker);
+%% Zonder props
+opp = sum(green_masker, 'all'); %Alles optellen waar een 1 staat
+size_img = size(green_masker);
+perc =  opp/ (size_img(1)*size_img(2))
 
+
+%%
 % now we are going to calculate the total area covered by leaves as
 % determined by Thomas. This will give us an amount of pixels
 D_area = regionprops(L,'Area');
