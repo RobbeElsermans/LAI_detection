@@ -1,4 +1,5 @@
 pointcloud = pcread("..\..\PLY files\LC_20231130_145915.ply");
+% pointcloud = pcread("..\Low_Coverage\LC_20231130_145915.ply");
 
 cleancloud = NormalizeAndCleanPointCloudNormal(pointcloud);
 

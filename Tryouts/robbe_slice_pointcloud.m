@@ -17,7 +17,7 @@ leveledPc = pctransform(cleancloud,tform);
 minZ = leveledPc.ZLimits(1);
 maxZ = leveledPc.ZLimits(2);
 % Define the thickness of each slice.
-thickness = 0.15;
+thickness = 0.05;
 % Use pcplayer to visualize the point cloud slices.
 player = pcplayer(leveledPc.XLimits, leveledPc.YLimits, leveledPc.ZLimits);
 % Use a for loop to select each point cloud slice.
