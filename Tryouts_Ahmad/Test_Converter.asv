@@ -1,0 +1,55 @@
+inputBagFile = '..\..\Low_Coverage\LC_20231130_145915.bag';
+outputPLYFile = 'output_cloud.ply'; % Replace with your desired output filename
+
+% Load the bag file
+bag = rosbag(inputBagFile);
+
+% Get the topic names for color and depth images
+colorTopic = '/device_0/sensor_1/Color_0/image/data';
+depthTopic = '/device_0/sensor_0/Depth_0/image/data';
+
+% Read messages from the bag
+colorMsgs = readMessages(select(bag, 'Topic', colorTopic));
+depthMsgs = readMessages(select(bag, 'Topic', depthTopic));
+
+% Initialize empty arrays to store color and depth data
+colorData = [];
+depthData = [];
+
+% Extract color and depth image data
+for i = 1:numel(colorMsgs)
+    colorImg = readImage(colorMsgs{i});
+    depthImg = readImage(depthMsgs{i});
+
+    % Store color and depth data
+    colorData(:, :, :, i) = colorImg;
+    depthData(:, :, :, i) = depthImg;
+end
+
+% Convert depth data to point cloud
+xyzPoints = depthToPointCloud(depthData, colorData);
+
+% Write point cloud data to PLY file
+pcwrite(pointCloud(xyzPoints), outputPLYFile);
+%%
+
+disp(xyzPoints(1,:,1))
+
+%%
+
+function xyzPoints = depthToPointCloud(depthData, colorData)
+    % Convert depth data to point cloud
+    fx = 525.0; % Focal length in x direction
+    fy = 525.0; % Focal length in y direction
+    cx = 319.5; % Principal point x coordinate
+    cy = 239.5; % Principal point y coordinate
+    [rows, cols, ~, numFrames] = size(depthData);
+    xyzPoints = zeros(rows*cols, 3, numFrames);
+    for k = 1:numFrames
+        Z = double(depthData(:, :, 1, k));
+        [X, Y] = meshgrid(1:cols, 1:rows);
+        X = (X - cx) .* Z / fx;
+        Y = (Y - cy) .* Z / fy;
+        xyzPoints(:, :, k) = [X(:), Y(:), Z(:)];
+    end
+end
