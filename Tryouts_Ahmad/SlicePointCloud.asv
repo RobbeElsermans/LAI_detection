@@ -8,12 +8,12 @@ z_val = cleancloud.Location(:, 3);
 % minZ = min(zValues);
 % maxZ = max(zValues);
 z_range = cleancloud.ZLimits; % range is [min, max]
-z_distance = abs(z_range(2) - z_range(1)); % Absolute value
+z_distance = 
 % Define the thickness of each slice
 %sliceThickness = 0.1;
 
 % Initialize variables to store sliced point clouds
-sliced_pointClouds = cell(ceil(z_distance / slice_thickness), 1);
+sliced_pointClouds = cell(ceil((z_range(2) - z_range(1)) / slice_thickness), 1);
 
 % Slice the point cloud
 current_sliceIndex = 1;  % The index we are slicing
@@ -33,15 +33,10 @@ while currentZ < z_range(2)
     current_sliceIndex = current_sliceIndex + 1;
 end
 % Determine the hidden leave value.
-% If the total z_distance is higher then 0.15, then we have probably hidden
-% leaves
+% if we have a total height of 0.15cm< then we add a 0.2 factor to the
+% hidden leavse.
 
-hidden_leave_thresh = 0.10;
-hidden_leave_factor = 1; % default, we have no hidden leaves
 
-if z_distance > hidden_leave_thresh
-    hidden_leave_factor = ((z_distance/hidden_leave_thresh)/10)+1; % +1 om ervoor te zorgen dat de factor erbij komt i.p.v. er af gaat
-end
 
 end
 

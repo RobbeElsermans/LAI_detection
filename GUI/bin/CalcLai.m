@@ -1,4 +1,4 @@
-function [Leaf_area_index] = CalculateLAIfromPointCloud(slicedPointClouds, wall_area)
+function [Leaf_area_index] = CalculateLAIfromPointCloud(slicedPointClouds, wall_area, green_percent, hidden_leave_factor)
 % Assuming 'slicedPointClouds' contains the sliced point clouds
 
 % Initialize an array to store the counts in each slice
@@ -19,9 +19,5 @@ end
 % Divide each count by the wall area -> normalize
 result = countsInSlices / wall_area; 
 
-% Display the result
-%disp(result);
-
-Leaf_area_index = 2/sum(result,"all");
+Leaf_area_index = (2/sum(result,"all"))*hidden_leave_factor*green_percent;
 end
-
