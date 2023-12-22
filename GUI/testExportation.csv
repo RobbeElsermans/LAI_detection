@@ -1,0 +1,17 @@
+Parameter,Value_1,Value_2,Value_3
+lai,2.689412,,
+green_covered_percent,0.906048177083333,,
+hidden_leave_factor,1.265513,,
+z_distance,0.2655128,,
+amount_pointcloud_points,785838,,
+green_threshold_a_star_mask,10,,
+area_of_image,921600,,
+total_height_pointcloud,0.1,,
+layer_thickness_pointcloud,0.1,,
+amount_pointcloud_layers,3,,
+sub_layer_thickness_pointcloud,0.1,,
+used_rotation_norm,-0.15,0,1
+parameter_file,params\Robbe.json,,
+bag_file,C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.bag,,
+pointcloud_file,C:\Users\robel\Documents\GitHub\LAI_detection\High_Coverage\HC_20231130_143832.ply,,
+date_of_capture,23-Dec-2023 00:10:17,,

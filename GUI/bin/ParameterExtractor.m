@@ -93,7 +93,7 @@ classdef ParameterExtractor
 
         end
 
-        function setFilePath(obj, new_file_name)
+        function obj = setFilePath(obj, new_file_name)
             % https://www.mathworks.com/help/matlab/ref/datetime.html
             % prepareer de file name en naam
             obj.file = new_file_name;

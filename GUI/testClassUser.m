@@ -52,15 +52,22 @@ addpath bin
 %clc ;
 clear;
 close all;
-pointcloud = pcread("..\High_Coverage\HC_20231130_152757.ply");
-clean_factor = 0.19;
-% Wordt al gedaan in de App onder ApplyLayerDefButtonPushed
-[model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,clean_factor);
-cleancloud = select(pointcloud, inlierIndices);
+pointcloud = pcread("..\High_Coverage\HC_20231130_143920.ply");
 
+total_height_pointcloud = 0.19;
+layer_thickness_pointcloud = 0.2;
+sub_layer_thickness = 0.10;
+green_percentage = 0.92;
+area_of_image = 1280*720; % in pixels
+
+% Wordt al gedaan in de App onder ApplyLayerDefButtonPushed
+[model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,total_height_pointcloud);
+cleancloud = select(pointcloud, inlierIndices);
 pcshow(cleancloud);
 
-[slicedPointClouds, amountOfSlices, hidden_leave_factor] = SlicePointCloud(cleancloud,0.07);
+count_in_pointcloud = numel(pointcloud.Location)
 
-Leaf_area_index = CalcLai(slicedPointClouds, 1280*720, 0.93, hidden_leave_factor);
+[slicedPointClouds, amountOfSlices, z_distance] = SlicePointcloud(cleancloud,layer_thickness_pointcloud);
+hidden_leave_factor = FindHiddenLeaveFactor(z_distance, sub_layer_thickness);
+Leaf_area_index = CalcLai(count_in_pointcloud, area_of_image, green_percentage, hidden_leave_factor);
 fprintf("layers: %f, hidden_leave_factor: %f, LAI: %f, norm_plane: %s \r\n", amountOfSlices, hidden_leave_factor, Leaf_area_index, mat2str(model.Normal))
