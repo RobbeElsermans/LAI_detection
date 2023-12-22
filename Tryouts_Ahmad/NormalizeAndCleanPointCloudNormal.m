@@ -1,8 +1,8 @@
-function [cleancloud] = NormalizeAndCleanPointCloudNormal(pointcloud)
+function [cleancloud] = NormalizeAndCleanPointCloudNormal(pointcloud,clean_factor)
     %pointcloud = pcread(filepaths{i}));
     % clean up the pointcloud by setting the distance to an overestimation of the approximate distance to the wall
     % such that only actual outliers are removed
-    [model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,2);
+    [model, inlierIndices, outlierIndices] = pcfitplane(pointcloud,clean_factor);
     cleancloud = select(pointcloud, inlierIndices);
     % figure;
     % pcshow(cleancloud);
