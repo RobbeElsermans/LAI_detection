@@ -1,0 +1,31 @@
+function [imColor,imDepthReal] = bag_parser(depth_image, min_val, max_val)
+    % Convert depth image to hue values 0 - 1
+    % Hue = 0 --> red & hue = 1 --> red
+    % Range hue between 0 - 0.83 to get the color spectrum
+    hue = interp1([min_val,max_val],[0,0.83],depth_image);
+
+    % Get rows and columns of image
+    [rows, columns] = size(depth_image);
+
+end
+
+freqRange = 380:780;
+freqRange = interp1([380,780],[0,0.83],freqRange);
+fr1eqRange = repmat(freqRange,10,1);
+[rows, columns] = size(freqRange);
+saturation = 1;
+value = 1;
+
+sRGB = zeros(rows, columns, 3);
+for i = 1:1:rows
+    for j = 1:1:columns
+        rgb_values = hsv2rgb([freqRange(i,j), saturation, value]);
+        % Add-on: Convert wavelength of light in representative color
+        %rgb = wavelength2color(freqRange(i,j), 'gammaVal', 0.2, 'maxIntensity', 255, 'colorSpace', 'rgb');
+        sRGB(i,j,1) = rgb_values(1);
+        sRGB(i,j,2) = rgb_values(2);
+        sRGB(i,j,3) = rgb_values(3);
+    end
+end
+
+imshow(sRGB);
