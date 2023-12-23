@@ -1,11 +1,8 @@
 
 %% Load an image frame:
-    %curBag = rosbag('..\High_Coverage\HC_20231130_143832.bag')
-    curBag = rosbag('..\..\Low_Coverage\LC_20231130_145915.bag');
-    
+    curBag = rosbag('.\High_Coverage\HC_20231130_143832.bag')
     curTopics = curBag.AvailableTopics.Properties.RowNames;
-    %curSelColor = select(curBag,'Topic','/device_0/sensor_1/Color_0/image/data');
-    curSelColor = select(curBag,'Topic','/device_0/sensor_0/Depth_0/image/data');
+    curSelColor = select(curBag,'Topic','/device_0/sensor_1/Color_0/image/data');
     allImColor = readMessages(curSelColor, 'DataFormat', 'struct');
     imColor = rosReadImage(allImColor{1});
     
