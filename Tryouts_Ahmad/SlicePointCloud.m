@@ -1,4 +1,4 @@
-function [slicedPointClouds,currentSliceIndex] = SlicePointcloud(cleancloud,sliceThickness)
+function [slicedPointClouds,currentSliceIndex] = SlicePointCloud(cleancloud,sliceThickness)
 %SlicePointcloud will slice a given pointcloud with a specific layer
 %thickness
 

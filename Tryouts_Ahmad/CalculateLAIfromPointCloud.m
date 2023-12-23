@@ -1,4 +1,8 @@
-function [Leaf_area_index] = CalculateLAIfromPointCloud(slicedPointClouds, wall_area)
+function [Leaf_area_index] = CalculateLAIfromPointCloud(slicedPointClouds, wall_area) 
+%
+% DO NOT USE THIS FUNCTION, USE THE FOLDER "Statistics"
+%
+
 % Assuming 'slicedPointClouds' contains the sliced point clouds
 
 % Initialize an array to store the counts in each slice
