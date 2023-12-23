@@ -11,4 +11,3 @@ function [brown_filter] = brown_filter(path, l_div, c_mul)
     mask_rgb = mask; mask_rgb(:,:,2) = mask; mask_rgb(:,:,3) = mask;
     brown_filter = im; brown_filter(mask) = 0;
 end
-

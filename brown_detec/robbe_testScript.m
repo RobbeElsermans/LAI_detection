@@ -1,6 +1,7 @@
 clc, clear, close all;
 
-curBag = rosbag('Medium_Coverage\MC_20231130_150501.bag');
+%curBag = rosbag('..\Medium_Coverage\MC_20231130_150501.bag');
+curBag = rosbag('High_Coverage\HC_20231130_143832.bag');
 
 curTopics = curBag.AvailableTopics.Properties.RowNames;
 
@@ -38,10 +39,10 @@ imshow(b)
 %tresh a
 % a gaat van -127 (groen) <-> 128 (rood)
 % bruin ligt hier tussen. Dus we moeten een tresh rond de 0 nemen
-new_a = zeros(size(a));
-new_a(:,:) = (a(:,:) < 5);
+green_masker = zeros(size(a));
+green_masker(:,:) = (a(:,:) < 5);
 imshow(a);
-maskedRgbImage = bsxfun(@times, imColor, cast(new_a, 'like', imColor)); 
+maskedRgbImage = bsxfun(@times, imColor, cast(green_masker, 'like', imColor)); 
 close all;
 figure;
 %imshow(maskedRgbImage);
@@ -55,7 +56,37 @@ lab1(:,:,1) = lab1(:,:,1) + 20;
 lab1(:,:,1) = (lab1(:,:,1) <=1).*(lab1(:,:,1) + 10);
 test = lab2rgb(lab1);
 
+%figure;
+%imshow(lab1);
+% determine the free leaves
+% recon = imreconstruct(double(imColor),b, 18 );
+%% 
+% Probeersel 2 (Ahmad)
+% We are going to threshold transform the image so we can label it:
+% T = graythresh(maskedRgbImage);
+% im = im2bw(maskedRgbImage, T);
+% green_masker is ale een goede verhouding
+
 figure;
-imshow(lab1);
-% determine the freen leaves
-recon = imreconstruct(double(imColor),b, 18 );
+imshow(green_masker)
+[L, n] = bwlabel(green_masker);
+%% Zonder props
+opp = sum(green_masker, 'all'); %Alles optellen waar een 1 staat
+size_img = size(green_masker);
+perc =  opp/ (size_img(1)*size_img(2))
+
+
+%%
+% now we are going to calculate the total area covered by leaves as
+% determined by Thomas. This will give us an amount of pixels
+D_area = regionprops(L,'Area');
+matrix_area = [D_area.Area];
+total_area_covered_by_leaves = sum(matrix_area, 'all');
+
+% Now we are going to divide this number by the total amount of pixels:
+pixels = size(maskedRgbImage);
+x_pixels = pixels(1);
+y_pixels = pixels(2);
+total_area_image = x_pixels*y_pixels;
+
+percentage_covered_by_leaves = total_area_covered_by_leaves/total_area_image % 0.4428
