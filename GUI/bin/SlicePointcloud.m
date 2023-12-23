@@ -1,39 +1,37 @@
-function [slicedPointClouds,currentSliceIndex] = SlicePointcloud(cleancloud,sliceThickness)
-%SlicePointcloud will slice a given pointcloud with a specific layer
-%thickness
-
-%   We divide the pointcloud in equal layers by determine the maximum
-%   height (z-axis) of the given pointcloud divided by the given thickness.
+function [sliced_pointClouds,current_sliceIndex, z_distance] = SlicePointcloud(cleancloud,slice_thickness)
+% slicing the point cloud
 
 % Assuming 'cleancloud' is your point cloud variable
 
 % Determine the range of z values in the point cloud
-zValues = cleancloud.Location(:, 3);
-minZ = min(zValues);
-maxZ = max(zValues);
-
+z_val = cleancloud.Location(:, 3);
+% minZ = min(zValues);
+% maxZ = max(zValues);
+z_range = cleancloud.ZLimits; % range is [min, max]
+z_distance = abs(z_range(2) - z_range(1)); % Absolute value
 % Define the thickness of each slice
 %sliceThickness = 0.1;
 
 % Initialize variables to store sliced point clouds
-slicedPointClouds = cell(ceil((maxZ - minZ) / sliceThickness), 1);
+sliced_pointClouds = cell(ceil(z_distance / slice_thickness), 1);
 
 % Slice the point cloud
-currentSliceIndex = 1;
-currentZ = minZ;
+current_sliceIndex = 0;  % The index we are slicing
+currentZ = z_range(1);       % We start from the minimum
 
-while currentZ < maxZ
+while currentZ < z_range(2)
+    current_sliceIndex = current_sliceIndex + 1;
+
     % Define the bounds of the current slice
-    zMin = currentZ;
-    zMax = currentZ + sliceThickness;
+    temp_z_min = currentZ;
+    temp_z_max = currentZ + slice_thickness; % We go to a maximum of currentZ + the given slice index
 
     % Extract points within the current slice
-    indices = find(zValues >= zMin & zValues < zMax);
-    slicedPointClouds{currentSliceIndex} = select(cleancloud, indices);
+    indices = find(z_val >= temp_z_min & z_val < temp_z_max); % We filter out only the point between the temp_z_min and temp_z_max
+    sliced_pointClouds{current_sliceIndex} = select(cleancloud, indices); % the indices represent the points that are in the given z-range.
 
     % Move to the next slice
-    currentZ = currentZ + sliceThickness;
-    currentSliceIndex = currentSliceIndex + 1;
+    currentZ = currentZ + slice_thickness;
+    
 end
 end
-
