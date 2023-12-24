@@ -79,16 +79,38 @@ for folderIdx = 1:length(folders)
 end
 
 % Display results
-fprintf("Statistics for X-Accelerations:\n");
+fprintf("\nStatistics for X-Accelerations:\n");
+
 for folderIdx = 1:length(folders)
     folder = folders{folderIdx};
+    folderPath = fullfile('..\..\..', folder);  % Path to each folder
+    % Get all bag files in the folder
+    bagFiles = dir(fullfile(folderPath, '*.bag'));
+
     fprintf("Folder: %s\n", folder);
-    fprintf("Max: Mean: Median: GaussianMean: GaussianVariance\n");
+    fprintf("Max:   Mean:   Median:   GaussianMean:   GaussianVariance:   MotionStatus\n");
+    
+    % Create a cell array to store the table data for each folder
+    tableData = cell(numel(results{folderIdx, 2}), 6);
     
     for fileIdx = 1:numel(results{folderIdx, 2})
-        fprintf("%.4f\t%.4f\t%.4f\t%.4f\t%.4f\n", results{folderIdx, 2}{fileIdx}, results{folderIdx, 3}(fileIdx), ...
-                results{folderIdx, 4}(fileIdx), results{folderIdx, 5}(fileIdx), results{folderIdx, 6}(fileIdx));
+        fprintf("%.4f\t%.4f\t%.4f\t%.4f\t%.4f\t%s\n", results{folderIdx, 2}{fileIdx}, results{folderIdx, 3}(fileIdx), ...
+                results{folderIdx, 4}(fileIdx), results{folderIdx, 5}(fileIdx), results{folderIdx, 6}(fileIdx), results{folderIdx, 7}{fileIdx});
+        
+        % Store data in the table data cell array
+        tableData{fileIdx, 1} = bagFiles(fileIdx).name;
+        tableData{fileIdx, 2} = results{folderIdx, 2}{fileIdx};
+        tableData{fileIdx, 3} = results{folderIdx, 3}(fileIdx);
+        tableData{fileIdx, 4} = results{folderIdx, 4}(fileIdx);
+        tableData{fileIdx, 5} = results{folderIdx, 5}(fileIdx);
+        tableData{fileIdx, 6} = results{folderIdx, 6}(fileIdx);
     end
     
+    % Create a table from the table data for each folder
+    tableHeaders = {'Filename', 'Max', 'Mean', 'Median', 'GaussianMean', 'GaussianVariance'};
+    resultsTable = cell2table(tableData, 'VariableNames', tableHeaders);
+    
+    % Display the table for each folder
+    disp(resultsTable);
     fprintf("\n");
 end
