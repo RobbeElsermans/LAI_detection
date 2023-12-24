@@ -1,6 +1,7 @@
 High_Coverage/
 Medium_Coverage/
 Low_Coverage/
+Failed_Coverage/
 ImgLoad/
 PLY_Files/
 LAI_Detection.m

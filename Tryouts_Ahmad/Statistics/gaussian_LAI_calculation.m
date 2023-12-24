@@ -1,6 +1,6 @@
-function [gaussian_LAI] = gaussian_LAI_calculation(normalized_counts)
+function [gaussian_LAI] = gaussian_LAI_calculation(LAI)
     % Gaussian Distribution Fitting for LAI
-    pd = fitdist(normalized_counts, 'Normal');
+    pd = fitdist(LAI, 'Normal');
     mu = pd.mu;
     sigma = pd.sigma;
     gaussian_LAI = normpdf(mu, sigma);
