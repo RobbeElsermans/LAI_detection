@@ -40,6 +40,5 @@ B = double(imColor_resized(:, :, 3)) / 255.0;
 
 % Create color point cloud
 point_cloud.Color = uint8(255 * cat(3, R, G, B));
-
 end
 
