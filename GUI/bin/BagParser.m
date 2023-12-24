@@ -1,4 +1,4 @@
-function [imColor,imDepthReal] = BagParser(path)
+function [imColor,imDepthReal, accelData] = BagParser(path)
     curBag = rosbag(path);
     curSelColor = select(curBag,'Topic','/device_0/sensor_1/Color_0/image/data');
     allImColor = readMessages(curSelColor, 'DataFormat', 'struct');
@@ -12,4 +12,7 @@ function [imColor,imDepthReal] = BagParser(path)
     curSelDepth = select(curBag,'Topic','/device_0/sensor_0/option/Depth_Units/value');
     depthVal = readMessages(curSelDepth, 'DataFormat', 'struct');
     imDepthReal = imDepth .* depthVal{1}.Data;
+
+    curSelAcc = select(curBag, 'Topic', '/device_0/sensor_2/Accel_0/imu/data');
+    accelData = readMessages(curSelAcc, 'DataFormat', 'struct');
 end
