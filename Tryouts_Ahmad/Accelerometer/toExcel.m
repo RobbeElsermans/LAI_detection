@@ -1,10 +1,5 @@
 clear; clc;
 
-% Load necessary libraries for Gaussian fitting
-if verLessThan('matlab', '9.8')
-    error('MATLAB version R2020a or later is required for this example.')
-end
-
 folders = {'Low_Coverage', 'High_Coverage', 'Medium_Coverage', 'Failed_Coverage'};
 threshold = 1.5;  % Adjust threshold as needed
 threshold_failed_coverage = 10; % Set the threshold for Failed_Coverage folder
