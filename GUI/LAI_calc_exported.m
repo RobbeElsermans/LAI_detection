@@ -416,6 +416,7 @@ classdef LAI_calc_exported < matlab.apps.AppBase
                 start(app.log_retrieval_timer);
                 app.logger.WriteLog("Start log timer");
             end
+            movegui(app.LAIDetectionUIFigure, 'center');
 
         end
 
