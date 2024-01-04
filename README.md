@@ -61,3 +61,5 @@ If the Matlab Runtime isn't downloaded automatically, please install the Matlab 
 ## Note:
 Always ensure that you follow the steps precisely and refer to the repository's documentation for accurate guidance.
 
+## Important Note for Log File:
+For a log file, create a "log" folder in the same directory where the application is installed.
